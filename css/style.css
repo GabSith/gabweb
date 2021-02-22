@@ -344,14 +344,17 @@ h1 {
 .card {
   position: relative;
   
-  min-height: 25rem;
-  min-width: 25rem;
+  min-height: 30rem;
+  min-width: 30rem;
   overflow: hidden;
   margin: 2rem;
+  margin-bottom: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.726) 0 0 60px;
 
-  border-radius: 5px;
+  border-radius: 10px;
   /*box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);*/
 }
+
 
 
 
@@ -368,8 +371,10 @@ h1 {
   
   transform: translateX( 700px );
   background-image: url(/imgs/drwngSmllW.webp);
-  background-size: contain;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
+  
   
   animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
 }
@@ -401,7 +406,7 @@ h1 {
   100% { transform: translateX( -700px ); }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .card {
     min-height: 20rem;
     min-width: 20rem;
@@ -409,3 +414,8 @@ h1 {
 }
 
 
+@media (max-width: 1100px) {
+  .card {
+  min-height: 40rem;
+  min-width: 40rem;
+}}
