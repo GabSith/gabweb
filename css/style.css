@@ -20,7 +20,7 @@ html {
 
   /* background: linear-gradient(-45deg, #0e0a0a, #530e0e, #140d0d, #270116); */
 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 
@@ -78,7 +78,6 @@ a{
 h1 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 7rem;
-  font-weight: 10000;
   margin: 0;
   padding: 2rem;
   text-align: end;
@@ -360,9 +359,6 @@ h2 {
   /*box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);*/
 }
 
-
-
-
 .card_part {
   position: absolute;
   top: 0;
@@ -425,4 +421,46 @@ h2 {
     min-height: 25rem;
     min-width: 25rem;
   }
+}
+
+.Nickel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color: #300c20;
+}
+
+.tercerTitulo {
+  padding-bottom: 0;
+}
+
+
+
+
+.GabCraft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color: #311706;
+}
+
+.cuartoTitulo {
+  padding-bottom: 0;
 }
