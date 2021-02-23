@@ -242,7 +242,7 @@ h1 {
 }
 .button3:hover {
   opacity: 20%;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   width: 60%;
   font-size: 1rem;
   box-shadow:  0px 0px 60px 20px rgba(0, 0, 0, 0.349);
@@ -270,17 +270,26 @@ h1 {
   background-color: #1DA1F2;
 }
 
-
+@media (max-height: 1200px) {
+  .button {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  h1 {
+    font-size: 6rem;
+    padding: 5rem;
+  }
+}
 
 @media (max-width: 1000px) {
   .button {
-      font-size: 2.5rem;
+      font-size: 1rem;
       background-color: rgba(0, 0, 0, 0.192);
       margin-top: 2rem;
   }
 
   .button:hover {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   h1 {
@@ -291,19 +300,9 @@ h1 {
   .contenedorLinks{
     display: block;
   }
-  @media (max-height: 1200px) {
-    .button {
-      font-size: 1.5rem;
-      margin-top: 1rem;
-    }
-    h1 {
-      font-size: 6rem;
-      padding: 5rem;
-    }
-  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .button {
     font-size: 1rem;
     margin: 0.5rem auto;
@@ -354,6 +353,8 @@ h2 {
   overflow: hidden;
   margin: 2rem;
   box-shadow: rgba(0, 0, 0, 0.726) 0 0 60px;
+
+  max-width: 100%;
 
   border-radius: 10px;
   /*box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);*/
