@@ -62,8 +62,7 @@ a{
   display:flex ;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  flex-wrap: nowrap;
+
 
   /*filter: blur(5px);*/
 }
@@ -72,10 +71,10 @@ h1 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 7rem;
   margin: 0;
-  padding: 2rem;
+  padding: 4rem;
   text-align: end;
 
-  min-width: 40%;
+  /* min-width: 40%; */
 
 /*
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -160,10 +159,9 @@ h1 {
 
 
 .botoneswuu {
-  max-width: 70rem;
-  margin: 0 auto;
-  padding-bottom: 2rem;
-
+  max-width: 50rem;
+  margin: 0;
+  /* padding-bottom: 2rem; */
 
   /*display: flex;
   flex-direction: column;
@@ -262,7 +260,7 @@ h1 {
   }
   h1 {
     font-size: 6rem;
-    padding: 5rem;
+    padding: 0;
   }
 }
 
@@ -280,11 +278,17 @@ h1 {
   h1 {
     text-align: center;
     font-size: 8rem;
-    padding: 7rem;
+    /* padding: 7rem; */
+    margin-bottom: 2rem;
+  }
+  .botoneswuu {
+    margin: 0 auto;
+
   }
   .contenedorLinks{
     display: block;
   }
+
 }
 
 @media (max-width: 700px) {
@@ -295,12 +299,12 @@ h1 {
   }
   h1 {
     font-size: 4rem;
-    padding: 2rem;
+    /* padding: 2rem; */
     text-align: center;
   }
-  .contenedorLinks{
+  /* .contenedorLinks{
     display: block;
-  }
+  } */
 }
 
 
@@ -413,7 +417,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 
   
@@ -435,7 +438,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   
   width: 100%;
