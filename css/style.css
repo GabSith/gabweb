@@ -14,7 +14,7 @@ html {
   height:100%;
 
 
-  background-image: url(/imgs/banner4.png);
+  background-image: url(/imgs/banner4.webp);
   background-size: cover;
   background-position: center center;
 
@@ -388,13 +388,13 @@ h2 {
 
 .card_part.card_part-two {
   z-index: 6;
-  background-image: url(/imgs/gab_animacion_1.2.png);
+  background-image: url(/imgs/gab_animacion_1.2.webp);
   animation-delay: 7s;
 }
 
 .card_part.card_part-three {
   z-index: 5;
-  background-image: url(/imgs/gab_furro\ \(1\)2.png);
+  background-image: url(/imgs/gab_furro\ \(1\)2.webp);
   animation-delay: 14s;
 }
 
