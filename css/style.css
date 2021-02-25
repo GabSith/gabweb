@@ -45,9 +45,9 @@ a{
 }
 
 .links{
-  background: linear-gradient(-45deg, #0e0a0ab9, #530e0ed7, #140d0dce, #270116c9);
+  background: linear-gradient(-45deg, #0e0a0ab9, #5e1919d7, #140d0dce, #270116c9);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 10s ease infinite;
 }  
 
 .contenedorLinks {
@@ -188,7 +188,7 @@ h1 {
   background-color: rgba(0,0,0,0.05); 
   opacity: 1;
   border-radius: 13px;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 5px 5px 0px rgba(0,0,0,0.24), 0 17px 10px 5px rgba(0, 0, 0, 0.096);
   box-sizing: border-box;
 }
 
@@ -197,7 +197,7 @@ h1 {
   padding: 1.5rem 2rem;
   width: 90%;
   font-size: 1.5rem;
-  box-shadow:  0px 0px 60px 20px rgba(0, 0, 0, 0.349);
+  box-shadow:  0px 0px 20px 20px rgba(0, 0, 0, 0.151);
 }
 
 .button1 {
@@ -228,7 +228,7 @@ h1 {
   padding: 1rem 2.5rem;
   width: 60%;
   font-size: 1rem;
-  box-shadow:  0px 0px 60px 20px rgba(0, 0, 0, 0.349);
+  box-shadow:  0px 0px 20px 20px rgba(0, 0, 0, 0.151);
   background-color: #01A9EA;
 }
 .button4 {
